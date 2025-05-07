@@ -726,12 +726,6 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@babel/runtime@^7.2.0":
-  version "7.2.0"
-  resolved "http://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.2.0.tgz#b03e42eeddf5898e00646e4c840fa07ba8dcad7f"
-  dependencies:
-    regenerator-runtime "^0.12.0"
-
 "@babel/template@^7.1.0", "@babel/template@^7.1.2":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.1.2.tgz#090484a574fef5a2d2d7726a674eceda5c5b5644"
@@ -825,6 +819,11 @@
 "@types/tapable@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.2.tgz#e13182e1b69871a422d7863e11a4a6f5b814a4bd"
+
+"@types/use-sync-external-store@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@types/use-sync-external-store/-/use-sync-external-store-0.0.6.tgz#60be8d21baab8c305132eb9cb912ed497852aadc"
+  integrity sha512-zFDAD+tlpf2r4asuHEj0XH6pY6i0g5NeAHPn+15wk3BV6JA69eERFXC1gyGThDkVa1zCyKr5jox1+2LbV/AMLg==
 
 "@webassemblyjs/ast@1.7.6":
   version "1.7.6"
@@ -3812,12 +3811,6 @@ hmac-drbg@^1.0.0:
 hoek@4.x.x:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
-
-hoist-non-react-statics@^3.2.1:
-  version "3.2.1"
-  resolved "http://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.2.1.tgz#c09c0555c84b38a7ede6912b61efddafd6e75e1e"
-  dependencies:
-    react-is "^16.3.2"
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -6874,20 +6867,13 @@ react-error-overlay@^5.1.1:
   version "5.1.1"
   resolved "http://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-5.1.1.tgz#56f0439f001ff3588da0f479a86482ccb1e708cb"
 
-react-is@^16.3.2, react-is@^16.6.3:
-  version "16.7.0"
-  resolved "http://registry.npm.taobao.org/react-is/download/react-is-16.7.0.tgz#c1bd21c64f1f1364c6f70695ec02d69392f41bfa"
-
-react-redux@^6.0.0:
-  version "6.0.0"
-  resolved "http://registry.npm.taobao.org/react-redux/download/react-redux-6.0.0.tgz#09e86eeed5febb98e9442458ad2970c8f1a173ef"
+react-redux@^9.0.0:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-9.2.0.tgz#96c3ab23fb9a3af2cb4654be4b51c989e32366f5"
+  integrity sha512-ROY9fvHhwOD9ySfrF0wmvu//bKCQ6AeZZq1nJNtbDC+kk5DuSuNX/n6YWYF/SYy7bSba4D4FSz8DJeKY/S/r+g==
   dependencies:
-    "@babel/runtime" "^7.2.0"
-    hoist-non-react-statics "^3.2.1"
-    invariant "^2.2.4"
-    loose-envify "^1.4.0"
-    prop-types "^15.6.2"
-    react-is "^16.6.3"
+    "@types/use-sync-external-store" "^0.0.6"
+    use-sync-external-store "^1.4.0"
 
 react-scripts@2.1.2:
   version "2.1.2"
@@ -8218,6 +8204,11 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+use-sync-external-store@^1.4.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.5.0.tgz#55122e2a3edd2a6c106174c27485e0fd59bcfca0"
+  integrity sha512-Rb46I4cGGVBmjamjphe8L/UnvJD+uPPtTkNvX5mZgqdbavhI4EbgIWJiIHXJ8bc/i9EQGPRh4DwEURJ552Do0A==
 
 use@^3.1.0:
   version "3.1.1"
