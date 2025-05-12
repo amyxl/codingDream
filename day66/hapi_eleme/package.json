@@ -9,7 +9,7 @@
     "mysql2": "^1.6.4",
     "package": "^1.0.1",
     "sequelize": "^4.42.0",
-    "sequelize-cli": "^5.4.0",
+    "sequelize-cli": "^6.6.3",
     "vision": "4"
   },
   "name": "hapi_eleme",
