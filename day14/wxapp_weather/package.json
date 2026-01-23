@@ -13,7 +13,7 @@
     "gulp": "^3.9.1",
     "gulp-jsonminify": "^1.1.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^5.0.0",
     "jsonminify": "^0.4.1",
     "stream-combiner2": "^1.1.1"
   }
